@@ -1,8 +1,7 @@
-﻿namespace StudentPortal.Web.MVC.Models.Entities
+﻿namespace StudentPortal.Web.MVC.Models
 {
-    public class Student
+    public class AddStudentVM
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
